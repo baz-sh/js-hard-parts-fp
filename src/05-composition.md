@@ -58,7 +58,7 @@ const add3 = x => x+3
 const divideBy5 = x => x/5
 
 const reduce = (array, howToCombine, buildingUp) => {
-    for (let i =9; i < array.length; i++) {
+    for (let i = 0; i < array.length; i++) {
         buildingUp = howToCombine(buildingUp, array[i])
     }
     return buildingUp
@@ -73,6 +73,8 @@ const output = reduce([multiplyBy2, add3, divideBy5], runFunctionOnInput, 11)
 
 ## Function Composition with Reduce
 
+![reduce-1](/img/05-reduce-1.png)
 
+![reduce-2](/img/05-reduce-2.png)
 
-## Function Composition Review
+As you can see following this through, reduce is incredibly powerful and the essence of functional programming.
