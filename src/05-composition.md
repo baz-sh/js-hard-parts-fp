@@ -78,3 +78,9 @@ const output = reduce([multiplyBy2, add3, divideBy5], runFunctionOnInput, 11)
 ![reduce-2](/img/05-reduce-2.png)
 
 As you can see following this through, reduce is incredibly powerful and the essence of functional programming.
+
+## Function Composition Review
+
+1. **Easier to add features**- This is the _essential_ aspect of functional javascript - being able to list of our units of code by name and have them run one by one as independent, self-contained pieces
+2. **More readable**- `reduce` here is often wrapped in `compose` to say 'combine up' the functions to run our data through them one by one. The style is 'point free'
+3. **Easier to debug**- I know exactly the line of code my bug is in - it's got a label!
