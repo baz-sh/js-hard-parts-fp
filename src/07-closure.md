@@ -39,11 +39,11 @@ const result = generatedFunc(2) //5
 
 ## Closure Under the Hood
 
-
+![closure](/img/07-closure.png)
 
 ## Closure Clarifications
 
-
+All arrays objects and functions end up on the heap with regards to their memory. Global memory might 'point' to an address here to reference something.
 
 ## Inner Function
 
