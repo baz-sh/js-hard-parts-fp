@@ -110,3 +110,10 @@ There are various names for the `back pack` or hidden `scope` property. They are
 Each of these are referred to by Will as `the back pack`.
 
 In practice, these are all known as _*Closure*_.
+
+**Closure in functional JavaScript**.
+
+* **Easier to add features-** Our functions can now have persistent permanent memories attached to them - it's going to let us build dramatically more powerful functions.
+* **Easier to debug-** Definitely need to know how it's working under the hood!
+
+![closure-3](/img/07-closure-3.png)
