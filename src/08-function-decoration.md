@@ -25,11 +25,13 @@ const oncify = (convertme) => {
 const multiplyBy2 = num => num*2;
 const oncifiedMultiplyBy2 = oncify(multiplyBy2)
 
-oncifiedMultiplyBy2(10)     //20
+oncifiedMultiplyBy2(10)     // 20
 oncifiedMultiplyBy(7)       // Sorry
 ```
 
 ## Decorating a Function
+
+![function-decoration](/img/08-function-decoration-1.png)
 
 ## Invoking a Decorated Function
 
