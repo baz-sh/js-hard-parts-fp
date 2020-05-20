@@ -101,3 +101,17 @@ But with every  component of the task independent, recognizable, reusable, cersa
 Combining up functions with multiple inputs from libraries.
 
 We've seen many of them (higher order functions, reduction/composition, closure, function decoration, partial applcation and currying). And there are even more - monads, applicators et al!
+
+**Readable, debuggable and easy to add features**.
+
+```js
+pipe(
+    getPlayerName,
+    getFirstName,
+    properCase,
+    addUserLabel,
+    createUserTemplate
+)([{name: 'will sentance', score:3}]);
+```
+
+But our code is now a set of independent, self contained steeps we can wield to solve any problem and become true composers of our code.
